@@ -19,9 +19,10 @@ echo "[3/4] Downloading server files... (This may take a minute)"
 proot-distro login debian -- bash -c '
 export DEBIAN_FRONTEND=noninteractive
 
-echo "-> Installing base dependencies..."
+echo "-> Installing base dependencies & Minecraft Network Libs..."
 apt update -y > /dev/null 2>&1
-apt install wget unzip nodejs gnupg -y > /dev/null 2>&1
+# THE FIX: Added libcurl4 and libcurl3-gnutls so Bedrock can connect to Xbox Live
+apt install wget unzip nodejs gnupg libcurl4 libcurl3-gnutls -y > /dev/null 2>&1
 
 echo "-> Installing Box64 (x86_64 Translator for Android)..."
 wget -q https://raw.githubusercontent.com/Pi-Apps-Coders/box64-debs/master/box64.list -O /etc/apt/sources.list.d/box64.list
