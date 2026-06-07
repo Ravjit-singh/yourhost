@@ -1,5 +1,5 @@
 # YourHost 
-markdown_content = """# 🎮 YourHost: NexaPanel Minecraft Bedrock Server for Android
+🎮 YourHost: NexaPanel Minecraft Bedrock Server for Android
 
 Welcome to YourHost (powered by NexaPanel)! This project turns your Android phone into a fully functional, PC-grade Minecraft Bedrock server with a beautiful, easy-to-use web dashboard. 
 
