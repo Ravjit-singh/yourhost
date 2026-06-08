@@ -1,13 +1,20 @@
 YourHost
 1-Click Installation Guide
 Hosting your own server takes less than 2 minutes. Follow these three simple steps:
+
+
 Step 1: Get the Right App
+
 Download and install Termux from F-Droid.
+
 ⚠️ CRITICAL: Do NOT use the Google Play Store version! It is completely outdated and will cause the setup to crash.
+
+
 Step 2: Run the Installer
 Open the Termux app, copy the exact command below, paste it into the screen, and hit Enter:
 
 curl -sL https://raw.githubusercontent.com/Ravjit-singh/yourhost/main/install.sh | bash
+
 
 Step 3:Connect and Play
 After everything in termux is finished You will see a message "Access locally via: http://IP_ADDRESS:3005"
