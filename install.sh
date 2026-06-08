@@ -34,7 +34,7 @@ mkdir -p /root/server
 cd /root/server
 
 echo "-> Fetching Minecraft & UI Bundle from GitHub..."
-wget -O bundle.zip https://github.com/Ravjit-singh/yourhost/releases/download/v1.0/backend_bundle.zip
+wget -O bundle.zip https://github.com/Ravjit-singh/yourhost/releases/download/v1.1/backend_bundle.zip
 
 echo "-> Extracting files..."
 unzip -o bundle.zip > /dev/null 2>&1
