@@ -27,8 +27,8 @@ Once installed, you never have to run that long command again.
 **To Stop the Server:**
  1. Click **Stop** inside the NexaPanel UI to safely save your Minecraft world.
  2. Simply swipe Termux away from your recent apps menu to close it completely.
-## 🌍 Connecting to Your World
+## Connecting to Your World
  * Make sure your friends are connected to the same Wi-Fi network (or use a tunneling app like ZeroTier or Ngrok for remote play).
  * Add the server in your Minecraft game using your phone's local IP address.
  * Default Port: 19132
-*Built with ❤️ for the mobile gaming community.*
+*Built with love for the mcpe gaming community.*
