@@ -7,7 +7,7 @@ No coding knowledge required. If you can copy and paste, you can host a server!
 
 ---
 
-## 🚀 1-Click Installation
+## 1-Click Installation
 
 **Step 1:** Download **Termux** from [F-Droid](https://f-droid.org/en/packages/com.termux/) *(Do not use the Google Play Store version, it is outdated)*.
 
@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/Ravjit-singh/yourhost/main/install.sh
 
 
 **Step 3:** Put your phone down and wait. The script will automatically download the server, install the required emulators, and open the NexaPanel dashboard in your web browser.
-## 🕹️ How to Use the Server
+## How to Use the Server
 Once installed, you never have to run that long command again.
 **To Start the Server:**
  1. Open Termux.
