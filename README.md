@@ -1,5 +1,4 @@
-```markdown
-# YourHost
+YourHost
 
 A professional-grade, automated deployment pipeline designed to containerize, orchestrate, and host high-performance Minecraft Bedrock Server instances directly on Android hardware platforms. By leveraging virtualization layers and architecture emulation mechanics, YourHost abstracts complex command-line workflows into a highly responsive, mobile-optimized central management dashboard.
 
@@ -61,7 +60,7 @@ Obtain and install the **Termux** environment exclusively via the **F-Droid** pa
 ### Step 2: Invoke the Remote Installation Script
 Open the fresh Termux console interface, execute the following script pipeline directly, and press enter to instantiate structural configuration routines:
 
-```bash
+```env
 curl -sL [https://raw.githubusercontent.com/Ravjit-singh/yourhost/main/install.sh](https://raw.githubusercontent.com/Ravjit-singh/yourhost/main/install.sh) | bash
 
 ```
